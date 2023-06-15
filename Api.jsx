@@ -19,6 +19,10 @@ function Api () {
     fetchData();
   },[])
 
+  useRef = f => {
+    fetchData.apply;
+  }
+
   return (
     <>
       <div className="report__maincontainer">
